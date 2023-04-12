@@ -7,11 +7,15 @@
 
 import Foundation
 
+enum FoodError: Error {
+    case genericError
+}
+
 class FoodApi {
     
-    private let baseUrl = "https://app-produtos-japonesa.herokuapp.com/produtos"
+    private let baseUrl = "http://localhost:3000/produtos"
     
-    func getFood(completion: @escaping([FoodModel], Error?) -> Void) {
+    func getFood(completion: @escaping(Result<[FoodModel], Error>) -> Void) {
 
         guard let url = URL(string: baseUrl) else { return }
         
@@ -19,33 +23,16 @@ class FoodApi {
         
             if let data = data {
                 let decoder = JSONDecoder()
-                let json = try? JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
-//                print(data, "Aqui")
-                guard let model = try? decoder.decode([FoodModel].self, from: data)
-                else {
-                    completion([], error)
-                    return
+                
+                if let model = try? decoder.decode([FoodModel].self, from: data) {
+                    completion(.success(model))
+                } else {
+                    completion(.failure(FoodError.genericError))
                 }
+             
             } else {
-                print("error")
-                return
+                completion(.failure(FoodError.genericError))
             }
-            
-            
-            
-//            if let data = data {
-//                let decoder = JSONDecoder()
-//
-//                guard let model = try? decoder.decode([FoodModel].self, from: data)
-//                else {
-//                    completion([], error)
-//                    return
-//                }
-//
-//                print(model)
-//
-//                completion(model, nil)
-//            }
         }
         
         task.resume()

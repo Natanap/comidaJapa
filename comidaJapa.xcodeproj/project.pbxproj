@@ -20,7 +20,6 @@
 		2C5487D229E5B7A7007D1968 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5487D129E5B7A7007D1968 /* FoodModel.swift */; };
 		2C5487D429E5BC01007D1968 /* FoodApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5487D329E5BC01007D1968 /* FoodApi.swift */; };
 		2C5487DA29E5CA61007D1968 /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5487D929E5CA61007D1968 /* FoodViewModel.swift */; };
-		2C5487DC29E5EB38007D1968 /* FodApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5487DB29E5EB38007D1968 /* FodApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		2C5487D129E5B7A7007D1968 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
 		2C5487D329E5BC01007D1968 /* FoodApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApi.swift; sourceTree = "<group>"; };
 		2C5487D929E5CA61007D1968 /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
-		2C5487DB29E5EB38007D1968 /* FodApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FodApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				2C5487D329E5BC01007D1968 /* FoodApi.swift */,
-				2C5487DB29E5EB38007D1968 /* FodApi.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -299,7 +296,6 @@
 				2C5487CD29E5B2B3007D1968 /* FirstTableViewCell.swift in Sources */,
 				2C54879F29E5AF79007D1968 /* ViewController.swift in Sources */,
 				2C5487DA29E5CA61007D1968 /* FoodViewModel.swift in Sources */,
-				2C5487DC29E5EB38007D1968 /* FodApi.swift in Sources */,
 				2C5487D429E5BC01007D1968 /* FoodApi.swift in Sources */,
 				2C5487CB29E5B0C1007D1968 /* FirstView.swift in Sources */,
 				2C5487D229E5B7A7007D1968 /* FoodModel.swift in Sources */,

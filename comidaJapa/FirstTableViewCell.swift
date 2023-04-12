@@ -14,7 +14,7 @@ class FirstTableViewCell: UITableViewCell {
     lazy var nameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .white
+        label.textColor = .black
         label.font = UIFont.boldSystemFont(ofSize: 18)
         return label
     }()
@@ -22,7 +22,8 @@ class FirstTableViewCell: UITableViewCell {
     lazy var descriptionLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .white
+        label.textColor = .black
+        label.numberOfLines = 0
         label.font = UIFont.boldSystemFont(ofSize: 13)
         return label
     }()
@@ -30,7 +31,7 @@ class FirstTableViewCell: UITableViewCell {
     lazy var image: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.contentMode = .scaleAspectFit
+        image.contentMode = .scaleToFill
         return image
     }()
 
@@ -50,26 +51,22 @@ class FirstTableViewCell: UITableViewCell {
         contentView.addSubview(image)
     }
     
-    private func setUpData() {
-    
-    }
-    
     private func setupConstraints(){
         NSLayoutConstraint.activate([
             image.topAnchor.constraint(equalTo: self.topAnchor, constant: 10),
             image.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 5),
-            image.widthAnchor.constraint(equalToConstant: 50),
-            image.heightAnchor.constraint(equalToConstant: 50),
+            image.widthAnchor.constraint(equalToConstant: 80),
+            image.heightAnchor.constraint(equalToConstant: 80),
             
             nameLabel.topAnchor.constraint(equalTo: image.topAnchor),
             nameLabel.leadingAnchor.constraint(equalTo: image.trailingAnchor, constant: 10),
-            descriptionLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -10),
-            nameLabel.heightAnchor.constraint(equalToConstant: 30),
+            nameLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -10),
+            nameLabel.heightAnchor.constraint(equalToConstant: 20),
             
-            descriptionLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 20),
+            descriptionLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 10),
             descriptionLabel.leadingAnchor.constraint(equalTo: image.trailingAnchor, constant: 10),
             descriptionLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -10),
-            descriptionLabel.heightAnchor.constraint(equalToConstant: 40),
+     
         ])
         
     }

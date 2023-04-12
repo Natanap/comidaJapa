@@ -7,117 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9E59B2CE-B72C-48E1-B79B-BB3D90C8F554"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "comidaJapa/Api/FoodApi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "getFood(completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9E59B2CE-B72C-48E1-B79B-BB3D90C8F554 - ae43c40cf7086daa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in comidaJapa.FoodApi.getFood(completion: (Swift.Array&lt;comidaJapa.FoodModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "comidaJapa"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nalvespe/Desktop/comidaJapa/comidaJapa/Api/FoodApi.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "1199">
-               </Location>
-               <Location
-                  uuid = "9E59B2CE-B72C-48E1-B79B-BB3D90C8F554 - ae43c40cf7086dcb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in comidaJapa.FoodApi.getFood(completion: (Swift.Array&lt;comidaJapa.FoodModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "comidaJapa"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nalvespe/Desktop/comidaJapa/comidaJapa/Api/FoodApi.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "1478">
-               </Location>
-               <Location
-                  uuid = "9E59B2CE-B72C-48E1-B79B-BB3D90C8F554 - ae43c40cf7086dcb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in comidaJapa.FoodApi.getFood(completion: (Swift.Array&lt;comidaJapa.FoodModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "comidaJapa"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nalvespe/Desktop/comidaJapa/comidaJapa/Api/FoodApi.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "1199">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E5EA1D9A-3024-4BC8-B0C4-25068D78E2A6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "comidaJapa/Api/FoodApi.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "getFood(completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E5EA1D9A-3024-4BC8-B0C4-25068D78E2A6 - ae43c40cf7087171"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in comidaJapa.FoodApi.getFood(completion: (Swift.Array&lt;comidaJapa.FoodModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "comidaJapa"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nalvespe/Desktop/comidaJapa/comidaJapa/Api/FoodApi.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "880">
-               </Location>
-               <Location
-                  uuid = "E5EA1D9A-3024-4BC8-B0C4-25068D78E2A6 - ae43c40cf7087092"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in comidaJapa.FoodApi.getFood(completion: (Swift.Array&lt;comidaJapa.FoodModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "comidaJapa"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nalvespe/Desktop/comidaJapa/comidaJapa/Api/FoodApi.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "880">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0B26C2B8-5B73-451E-A0E9-2AB4CC782A25"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -125,13 +14,13 @@
             filePath = "comidaJapa/Api/FodApi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "fecthData()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "0B26C2B8-5B73-451E-A0E9-2AB4CC782A25 - b9daf589b4a4ac8f"
+                  uuid = "0B26C2B8-5B73-451E-A0E9-2AB4CC782A25 - b9daf589b4a4ac2c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -141,9 +30,9 @@
                   urlString = "file:///Users/nalvespe/Desktop/comidaJapa/comidaJapa/Api/FodApi.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "364">
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "842">
                </Location>
                <Location
                   uuid = "0B26C2B8-5B73-451E-A0E9-2AB4CC782A25 - b9daf589b4a4ac6e"
@@ -158,7 +47,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "24"
                   endingLineNumber = "24"
-                  offsetFromSymbolStart = "364">
+                  offsetFromSymbolStart = "329">
                </Location>
             </Locations>
          </BreakpointContent>
