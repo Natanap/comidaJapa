@@ -87,6 +87,7 @@
 		2C4DEDEF29E714FF00032352 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2C4DEDF129E7155900032352 /* Cell */,
 				2C5487CA29E5B0C1007D1968 /* FirstView.swift */,
 			);
 			path = View;
@@ -98,6 +99,14 @@
 				2C54879E29E5AF79007D1968 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C4DEDF129E7155900032352 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C5487CC29E5B2B3007D1968 /* FirstTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		2C54878E29E5AF79007D1968 = {
@@ -133,7 +142,6 @@
 				2C5487A329E5AF7D007D1968 /* Assets.xcassets */,
 				2C5487A529E5AF7D007D1968 /* LaunchScreen.storyboard */,
 				2C5487A829E5AF7D007D1968 /* Info.plist */,
-				2C5487CC29E5B2B3007D1968 /* FirstTableViewCell.swift */,
 			);
 			path = comidaJapa;
 			sourceTree = "<group>";
