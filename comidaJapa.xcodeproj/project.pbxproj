@@ -84,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4DEDEF29E714FF00032352 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C5487CA29E5B0C1007D1968 /* FirstView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C4DEDF029E7150700032352 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C54879E29E5AF79007D1968 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2C54878E29E5AF79007D1968 = {
 			isa = PBXGroup;
 			children = (
@@ -107,16 +123,16 @@
 		2C54879929E5AF79007D1968 /* comidaJapa */ = {
 			isa = PBXGroup;
 			children = (
+				2C4DEDF029E7150700032352 /* Controller */,
+				2C4DEDEF29E714FF00032352 /* View */,
 				2C5487D029E5B747007D1968 /* Api */,
 				2C5487CF29E5B73B007D1968 /* ViewModel */,
 				2C5487CE29E5B733007D1968 /* Model */,
 				2C54879A29E5AF79007D1968 /* AppDelegate.swift */,
 				2C54879C29E5AF79007D1968 /* SceneDelegate.swift */,
-				2C54879E29E5AF79007D1968 /* ViewController.swift */,
 				2C5487A329E5AF7D007D1968 /* Assets.xcassets */,
 				2C5487A529E5AF7D007D1968 /* LaunchScreen.storyboard */,
 				2C5487A829E5AF7D007D1968 /* Info.plist */,
-				2C5487CA29E5B0C1007D1968 /* FirstView.swift */,
 				2C5487CC29E5B2B3007D1968 /* FirstTableViewCell.swift */,
 			);
 			path = comidaJapa;

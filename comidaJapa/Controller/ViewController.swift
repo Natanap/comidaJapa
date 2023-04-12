@@ -15,9 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.fistView = FirstView()
         self.view = fistView
-        view.backgroundColor = .red
     }
-
 
 }
 

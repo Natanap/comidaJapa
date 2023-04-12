@@ -1,5 +1,5 @@
 //
-//  firstView.swift
+//  FirstView.swift
 //  comidaJapa
 //
 //  Created by Natanael Alves Pereira on 11/04/23.
@@ -51,7 +51,6 @@ class FirstView: UIView{
         self.addSubview(self.tableView)
     }
 
-    
     private func setUpConstraints() {
         NSLayoutConstraint.activate([
             tableView.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
@@ -71,6 +70,7 @@ extension FirstView: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 110
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: FirstTableViewCell.identifier, for: indexPath) as! FirstTableViewCell
         cell.nameLabel.text = foodViewModel.model[indexPath.row].name
@@ -79,10 +79,8 @@ extension FirstView: UITableViewDataSource, UITableViewDelegate {
         if let url = URL(string: image) {
             cell.image.load(url: url )
         }
-        
         return cell
     }
-    
 }
 
 
